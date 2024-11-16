@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #8B0000;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Nova Script'; 
+}
+/* FORMULARIO */
+
+.contenido-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 115px auto;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #a52a2a;
+}
+
+/* CONTENIDO DE COMBATES */
+
+#contenedor {
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.combates-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.combate {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #dcdcdc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.combate h3 {
+    color: #8B0000;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+}
+
+.combate h4 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.combate p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.combate p:first-child {
+    font-weight: bold;
+}
+/*PAGINACION*/
+.paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;  
+}
+
+.paginacion-boton {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.paginacion-boton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.paginacion-boton:hover:not(:disabled) {
+    background-color: #a52a2a;
+}
+
+
+/* FOOTER */ 
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* PAGINACION */
+
+.paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.paginacion-boton {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.paginacion-boton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.paginacion-boton:hover:not(:disabled) {
+    background-color: #a52a2a;
+}
+
+/* ERROR */
+
+#imgError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#imgError img {
+    width: 88vh;
+    margin-top: -59px;
+}
+
+/*ICONOS*/
+
+.icono-rojo {
+    color: red;
+    margin-right: 5px; 
+}
+.icono-azul {
+    color: blue;
+    margin-left: 5px; 
+}

@@ -1,0 +1,55 @@
+{
+    "usuarios":[
+        {
+            "user": "aaaaa",
+            "pass": "zzzzz",
+            "levelId": 0
+        },
+        {
+            "user": "bbbbb",
+            "pass": "yyyyy",
+            "levelId": 2
+        },
+        {
+            "user": "ccccc",
+            "pass": "xxxxx",
+            "levelId": 2
+        },
+        {
+            "user": "ddddd",
+            "pass": "wwwww",
+            "levelId": 1
+        },
+        {
+            "user": "eeeee",
+            "pass": "uuuuu",
+            "levelId": 3
+        },
+        {
+            "user": "fffff",
+            "pass": "ttttt",
+            "levelId": 1
+        }
+        
+    ],
+    "nivel":[
+        {
+            "id": 0,
+            "nivel": "Free User"
+        },
+        {
+            "id": 1,
+            "nivel": "Standard User"
+        },
+        {
+            "id": 2,
+            "nivel": "Profesional User"
+        },
+        {
+            "id": 3,
+            "nivel": "Enterprise User"
+        }
+    ]
+
+    
+}
